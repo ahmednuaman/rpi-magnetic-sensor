@@ -8,7 +8,7 @@
     "start": "forever start -c 'node -r babel-register' ./index.js",
     "test": "standard",
     "watch": "concurrently 'npm run watch:js' 'npm run nodemon'",
-    "watch:js": "onchange '*.js' -- npm t"
+    "watch:js": "onchange '*.js' 'lib/*.js' -- npm t"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,8 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.18.0",
     "forever": "^0.15.3",
+    "nodemailer": "^2.6.4",
+    "redux": "^3.6.0",
     "rpio": "^0.9.12"
   },
   "devDependencies": {
