@@ -8,3 +8,7 @@ rpio.poll(PIN, (pin) => {
 
   console.log(state)
 })
+
+while (true) {
+  console.log(rpio.read(PIN))
+}
