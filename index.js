@@ -9,6 +9,6 @@ rpio.poll(PIN, (pin) => {
   console.log(state)
 })
 
-while (true) {
+setInterval(() => {
   console.log(rpio.read(PIN))
-}
+}, 200)
