@@ -9,7 +9,7 @@ You'll need:
 * GPIO connectors (I've used [female-to-female](http://www.ebay.co.uk/itm/40pcs-Dupont-Cables-FEMALE-TO-FEMALE-Jumper-GPIO-Wire-Ribbon-Breadboard-Arduino-/262202710636?hash=item3d0c7fda6c:g:v~gAAOSwuAVWzUtn))
 
 This is my hardware set up:
-![](https://www.dropbox.com/s/ek5rb7t5i4ryoz8/2016-11-13%2013.32.59.jpg)
+![](https://www.dropbox.com/s/ek5rb7t5i4ryoz8/2016-11-13%2013.32.59.jpg?raw=1)
 
 I use PINs 12 (BCM 18) and 14 (Ground) to connect to the sensor (you're able to change this in the code). Here's a handy chart: https://pinout.xyz/
 
