@@ -36,6 +36,7 @@
     "forever": "^0.15.3",
     "moment": "^2.16.0",
     "nodemailer": "^2.6.4",
+    "raspicam": "^0.2.13",
     "redux": "^3.6.0",
     "rpio": "^0.9.12"
   },

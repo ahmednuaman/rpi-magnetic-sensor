@@ -2083,7 +2083,7 @@ lodash.restparam@^3.0.0:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
 
-lodash@^4.0.0, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.1:
+lodash@*, lodash@^4.0.0, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.1:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
 
@@ -2557,6 +2557,12 @@ randomatic@^1.1.3:
   dependencies:
     is-number "^2.0.2"
     kind-of "^3.0.2"
+
+raspicam@^0.2.13:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/raspicam/-/raspicam-0.2.13.tgz#06a9f8ae32ab95a7249c96620021d8df2b1c8561"
+  dependencies:
+    lodash "*"
 
 rc@^1.0.1, rc@~1.1.6:
   version "1.1.6"
